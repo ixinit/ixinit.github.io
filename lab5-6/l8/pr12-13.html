@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+   <title>Моя первая страничка с использованием CSS</title>
+   <style>
+      .Top1 a {
+         font-weight: normal;
+         color: red;
+         text-decoration: none;
+      }
+
+      .Top1 a:hover {
+         font-weight: normal;
+         color: blue;
+         text-decoration: none;
+      }
+
+      .Top2 a {
+         font-weight: normal;
+         color: blue;
+         text-decoration: none;
+      }
+
+      .Top2 a:hover {
+         font-weight: normal;
+         color: green;
+         text-decoration: underline;
+      }
+
+      .Top3 {
+         font-family: "Times New Roman", Times, serif;
+         font-size: 12pt;
+         text-align: justify;
+         color: gray;
+      }
+
+      .Top4 {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 10pt;
+         font-style: italic;
+         font-weight: bolder;
+         text-align: center;
+         color: black;
+      }
+
+      .Top5 {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 12pt;
+         font-style: italic;
+         font-weight: bolder;
+         text-align: right;
+         color: black;
+      }
+
+      .Top6 {
+         font-family: Arial, Helvetica, sans-serif;
+         font-style: italic;
+         text-align: center;
+         color: orange;
+      }
+
+      .Top7 {
+         font-family: "Times New Roman", Times, serif;
+         text-align: center;
+         color: green;
+      }
+   </style>
+</head>
+
+<body>
+   <h2 class="Top6">Моя первая страничка с использованием CSS</h2>
+   <table border="0" width="100%" align="center" cellpadding="5">
+      <tr>
+         <td colspan="3" align="center">
+            <table width="100%" border="0" bgcolor="#CCCC99">
+               <tr>
+                  <td>
+                     <div class="Top1"><a href="#">меню 1</a>
+                  </td>
+                  </div>
+                  <td>
+                     <p class="Top1"><a href="#">меню 2</a>
+                  </td>
+                  </p>
+                  <td class="Top1"><a href="#">меню 3</a></td>
+                  <td class="Top1"><a href="#">меню 4</a></td>
+                  <td class="Top1"><a href="#">меню 5</a></td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <tr>
+         <td align="center" valign="top" bgcolor="#CCCCFF">
+            <table border="0" width="160" class="Top2">
+               <tr>
+                  <td><a href="#">подменю 1</a></td>
+               </tr>
+               <tr>
+                  <td><a href="#">подменю 2</a></td>
+               </tr>
+               <tr>
+                  <td><a href="#">подменю 3</a></td>
+               </tr>
+               <tr>
+                  <td><a href="#">подменю 4</a></td>
+               </tr>
+               <tr>
+                  <td><a href="#">подменю 5</a></td>
+               </tr>
+            </table>
+         </td>
+         <td rowspan="2">
+            <h2 class="Top7">Название статьи</h2>
+            <p class="Top3">
+               Едва утренний петербургский поезд, еще толком не вынырнув из клубов паровозного дыма, остановился у
+               перрона Николаевского вокзала, едва кондукторы откинули лесенки и взяли под козырек, как из вагона
+               первого класса на платформу спрыгнул молодой человек весьма примечательной наружности. Он словно сошел с
+               картинки парижского журнала, воспевающего моды летнего сезона 1882 года: светло-песочный чесучовый
+               костюм, широкополая шляпа итальянской соломки, остроносые туфли с белыми гамашами и серебряными
+               кнопками, в руке - изящная тросточка с серебряным же набалдашником. Однако внимание привлекал не столько
+               щегольской наряд пассажира, сколько импозантная, можно даже сказать, эффектная внешность. Молодой
+               человек был высок, строен, широкоплеч, на мир смотрел ясными голубыми глазами, ему необычайно шли тонкие
+               подкрученные усики, а черные, аккуратно причесанные волосы имели странную особенность - интригующе
+               серебрились на висках.
+            </p>
+            <div class="Top5">Борис АКУНИН</div>
+            <hr size="1" noshade color="#000000" width="350">
+         </td>
+         <td bgcolor="#CCCCFF">
+            <p class="Top4">сюда можно поместить какие-нибудь новости
+               <br>
+               или рекламу</p>
+         </td>
+      </tr>
+      <tr>
+         <td align="center" bgcolor="#CCCCFF"><img src="css_selektor_looc1.files/1.jpg" width="180" height="135"></td>
+         <td align="center" bgcolor="#CCCCFF"><img src="css_selektor_looc1.files/2.jpg" width="180" height="135"></td>
+      </tr>
+      <tr>
+         <td colspan="3" align="center" bgcolor="#FFCCCC">
+            <font color="#666666">Здесь можно разместить контактную информацию, баннеры, счетчики и т.д</font>
+         </td>
+      </tr>
+   </table>
+</body>
+
+</html>

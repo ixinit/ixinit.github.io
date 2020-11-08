@@ -1,0 +1,20 @@
+body{ 
+    background: blue;  
+    color: white;
+}
+h1{
+    color: red;
+}
+h2{
+    color: yellow;
+}
+p{
+    color: black;
+}
+p#pink{
+    color: fuchsia;
+}
+p.pink{
+    color: fuchsia;
+}    
+   
