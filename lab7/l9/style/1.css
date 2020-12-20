@@ -1,0 +1,19 @@
+body{
+    font-size: 100%;
+}
+
+p#a{
+    font: 20px 'Arial Black';
+}
+p#b{
+    font: italic 24px 'Courier New'; 
+}
+p#c{
+    font: bold 10px Verdana;
+}
+p#d{
+    font: 2.5em Georgia;
+}
+p#e{
+    font: italic 1.3em 'Comic Sans MS';
+}
