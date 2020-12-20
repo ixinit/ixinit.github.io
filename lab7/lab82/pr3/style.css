@@ -1,0 +1,25 @@
+#cheader {
+    width: 100%;
+}
+
+#cnavbar {
+    width: 30%;
+    min-width: 240px;
+    float: left;
+}
+
+#cmain {
+    width: 70%;
+    float: left;
+}
+
+#ccopyright {
+    width: 100%;
+    clear: both;
+    text-align: right;
+}
+
+/* TABLE {
+    max-width: 90%;
+    max-height: 60%;
+} */
