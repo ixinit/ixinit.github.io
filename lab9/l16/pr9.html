@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Вывод значения переменной</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+        <!--
+        var Str1, Str2, Sum1, Sum2, msg;
+        Str1 = window.prompt("Вычисление суммы двух чисел\nВведите число 1", "");
+        if (Str1 == null) {
+            document.write("Вы нажали Отмена");
+        } else {
+            Str2 = window.prompt("Вычисление суммы двух чисел\nВведите число 2", "");
+        }
+        if (Str2 == null) {
+            document.write("Вы нажали Отмена");
+        } else {
+            Sum1 = Str1 + Str2;
+        }
+        msg = "До преобразования типов: <br>Значение суммы чисел ";
+        msg += Str1 + " и " + Str2 + " равно ";
+        msg += Sum1 + "<br><br>";
+        Sum2 = parseInt(Str1) + parseInt(Str2);
+        msg += "После преобразования типов:<br>";
+        msg += "Значение суммы чисел " + Str1 + " и ";
+        msg += Str2 + " равно " + Sum2;
+        document.write(msg);
+    </script>
+</body>
+
+</html>

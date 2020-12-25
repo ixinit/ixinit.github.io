@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Глобальные и локальные переменные</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+        <!--
+        function f_Sum() {
+            var Var1 = 5;
+            var Num1 = 1;
+            document.write("Локальная переменная Var1 = " + Var1 + "<br>");
+            document.write("Локальная переменная Num1 = " + Num1 + "<br>");
+            document.write("Глобальная переменная Var2 = " + Var2 + "<br>");
+            return Var1 + Var2;
+        }
+        //
+        -->
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        <!--
+        var Var1, Var2, Var3;
+        Var1 = 10;
+        document.write("Глобальная переменная Var1 = " + Var1 + "<br>");
+        Var2 = 7;
+        Var3 = f_Sum();
+        document.write("Сумма Var1 + Var2 = " + Var3 + "<br>");
+        document.write("Глобальная переменная Var1 осталась = ");
+        document.write(Var1 + "<br>");
+        document.write("Локальная переменная Num1 = " + typeof Num1);
+        document.write(" , т. е. не видна вне тела функции");
+        //
+        -->
+    </script>
+</body>
+
+</html>
